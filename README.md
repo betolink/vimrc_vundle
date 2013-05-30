@@ -9,4 +9,7 @@ Then install all plugins:
 
     vim +BundleInstall +qall
 
+Fonts for Ubuntu/Mint
+
+    cd ~/.fonts/ && git clone https://github.com/scotu/ubuntu-mono-powerline.git && cd ~ 
 
