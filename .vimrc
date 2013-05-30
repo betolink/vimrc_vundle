@@ -3,6 +3,7 @@ filetype off                   " required!
 filetype indent plugin on
 syn on
 
+
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
@@ -27,7 +28,7 @@ let g:sparkupNextMapping = '<leader>n'
 
 " Nice colors
 Bundle 'flazz/vim-colorschemes'
-"colorscheme bensday
+colorscheme bensday
 "colorscheme af
 "colorscheme gentooish
 "colorscheme koehler
@@ -35,7 +36,8 @@ Bundle 'flazz/vim-colorschemes'
 "colorscheme blacklight
 "colorscheme blackbeauty
 "colorscheme koehler
-colorscheme kkruby
+"colorscheme kkruby
+
 
 " Tree-based file browser.  `,nn` toggles.
 Bundle 'scrooloose/nerdtree'
@@ -74,6 +76,7 @@ let g:slime_target = "tmux"
 
 " Paredit
 Bundle 'vim-scripts/paredit.vim'
+
 
 " Rainbow parens
 Bundle 'kien/rainbow_parentheses.vim'
