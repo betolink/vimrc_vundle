@@ -2,7 +2,7 @@
 
 Install Vundle:
 
-    git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+    git clone https://github.com/betolink/vimrc_vundle.git ~/.vim
     cd .vim && git submodule update --init
 
 Then install all plugins:
