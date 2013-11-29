@@ -4,6 +4,7 @@ Install Vundle:
 
     git clone https://github.com/betolink/vimrc_vundle.git ~/.vim
     cd .vim && git submodule update --init
+    ln -s .vimrc ~/.vimrc
 
 Then install all plugins:
 
